@@ -4,7 +4,7 @@
   "description": "Authentication Sprint Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest --watchAll=false",
+    "test": "cross-env NODE_ENV=test jest --watch",
     "server": "nodemon index.js"
   },
   "jest": {
@@ -32,7 +32,6 @@
     "sqlite3": "^4.1.1"
   },
   "devDependencies": {
-    "create-react-app": "^3.3.0",
     "cross-env": "^6.0.3",
     "jest": "^25.1.0",
     "nodemon": "^2.0.2",
